@@ -20,11 +20,11 @@
 
 username=${username:-<changeme>} #username: e.g. user@company.com
 password=${password:-<changeme>} #password e.g. password
-instance=${instance:-<changeme>} #pod instance - production/sandbox/other: e.g. na1
+instance=${instance:-<changeme>} #pod instance - production/sandbox/other: e.g. na1 - must match the instance where the org supporting your username resides.
 clientid=${clientid:-<changeme>} #salesforce connected app client id: e.g. 3MVG99OxTyEMCQxxSjz15qIUWtM_Px0LChhdzWYQI57CFj.5HD2ya3vrrXr70DRGxxO3cSNgfSwhk6WPW.6Jx
 clientsecret=${clientsecret:-<changeme>} #salesforce connected app client secret: e.g. 3436145943036415338
 version=${version:-<changeme>} #salesforce API version: e.g. 31.0
-sobject=${sobject:-<changeme>} #salesforce sobject to query: e.g. LoginEvent
+sobject=${sobject:-<changeme>} #salesforce sobject to query: e.g. User, Account, Contact
 sparkfunid=${sparkfunid:-<changeme>} #sparkfun public key id: e.g. MGGaxMzZWxFZYOaqJqZb
 sparkfunkey=${sparkfunkey:-<changeme>} #sparkfun private key id: e.g. nzamFKgHpJHgGNrq7agA
 twilioid=${twilioid:-<changeme>} #twilio id: e.g. BC60bc8cda88713a766470fbac7b5abd4b
