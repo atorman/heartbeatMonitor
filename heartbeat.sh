@@ -20,23 +20,23 @@
 
 username=${username:-<changeme>} #username: e.g. user@company.com
 password=${password:-<changeme>} #password e.g. password
-instance=${instance:-<changeme>} #pod instance - production/sandbox/other: e.g. na1 - must match the instance where the org supporting your username resides.
-clientid=${clientid:-<changeme>} #salesforce connected app client id: e.g. 3MVG99OxTyEMCQxxSjz15qIUWtM_Px0LChhdzWYQI57CFj.5HD2ya3vrrXr70DRGxxO3cSNgfSwhk6WPW.6Jx
-clientsecret=${clientsecret:-<changeme>} #salesforce connected app client secret: e.g. 3436145943036415338
-version=${version:-<changeme>} #salesforce API version: e.g. 31.0
-sobject=${sobject:-<changeme>} #salesforce sobject to query: e.g. User, Account, Contact
-sparkfunid=${sparkfunid:-<changeme>} #sparkfun public key id: e.g. MGGaxMzZWxFZYOaqJqZb
-sparkfunkey=${sparkfunkey:-<changeme>} #sparkfun private key id: e.g. nzamFKgHpJHgGNrq7agA
-twilioid=${twilioid:-<changeme>} #twilio id: e.g. BC60bc8cda88713a766470fbac7b5abd4b
-twilioTo=${twilioTo:-<changeme>} #twilio to sms phone number: e.g. 9253801101
-twilioFrom=${twillioFrom:-<changeme>} #twilio from sms phone number: e.g. 19253819221
-twiliotoken=${twiliotoken:-<changeme>} #twilio authorization token: e.g. CC60bc2eda58703e766470fdac7e5abd8b:42f9823d3g0532dc99b47x159859bdk8
-sendhubid=${sendhubid:-<changeme>} #sendhub contactid [required]: e.g. 12512232
-sendhubkey=${sendhubkey:-<changeme>} #sendhub API key: e.g. 8974f5cd09e7bc2bbdfca1173175b194b3828y97
-sendhubuser=${sendhubuser:-<changeme>} #sendhub username i.e. phone number: e.g. 9253801101
-keenproject=${keenproject:-<changeme>} #keen.io project id: e.g. 63ed34a4e87596182f030301
-keencollection=${keencollection:-<changeme>} #keen.io collection: e.g. heartbeatProduction
-keenkey=${keenkey:-<changeme>} #keen.io write API key: e.g. 26232f8eac452ece71a20b5d0658fe5925a2d80fba2370e53fb1dc8ed2d50c9117e4fc815e54e69bde345102db40801cbeb62a3f8179053863a3fe443f302519fb58440f0c41183bbbeac983b6b7fc2aacdcf12c51db6451568d87a0f2acc5ffdf61529ad8eba7e62e7f023d2c258d64
+instance=${instance:-<changeme>} #pod instance - production/sandbox/other
+clientid=${clientid:-<changeme>} #salesforce connected app client id
+clientsecret=${clientsecret:-<changeme>} #salesforce connected app client secret
+version=${version:-<changeme>} #salesforce API version
+sobject=${sobject:-<changeme>} #salesforce sobject to query
+sparkfunid=${sparkfunid:-<changeme>} #sparkfun public key id
+sparkfunkey=${sparkfunkey:-<changeme>} #sparkfun private key id
+twilioid=${twilioid:-<changeme>} #twilio id
+twilioTo=${twilioTo:-<changeme>} #twilio to sms phone number
+twilioFrom=${twillioFrom:-<changeme>} #twilio from sms phone number
+twiliotoken=${twiliotoken:-<changeme>} #twilio authorization token
+sendhubid=${sendhubid:-<changeme>} #sendhub contactid [required]
+sendhubkey=${sendhubkey:-<changeme>} #sendhub API key
+sendhubuser=${sendhubuser:-<changeme>} #sendhub username 
+keenproject=${keenproject:-<changeme>} #keen.io project id
+keencollection=${keencollection:-<changeme>} #keen.io collection
+keenkey=${keenkey:-<changeme>} #keen.io write API key
 testMode=${testMode:-false} #use to test - change to false for production
 
 #---------------------------start script---------------------------
