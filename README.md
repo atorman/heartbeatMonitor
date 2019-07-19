@@ -80,13 +80,13 @@ Keen.io and Twilio.com have more options and security than sparkfun and sendhub.
 
 1. Add the following configurations to heartbeat to try twilio.com and keen.io instead:
 ```
-twilioid=${twilioid:-<changeme>} #twilio id: e.g. BC60bc8cda88713a766470fbac7b5abd4b
-twilioTo=${twilioTo:-<changeme>} #twilio to sms phone number: e.g. 9253801101
-twilioFrom=${twillioFrom:-<changeme>} #twilio from sms phone number: e.g. 19253819221
-twiliotoken=${twiliotoken:-<changeme>} #twilio authorization token: e.g. CC60bc2eda58703e766470fdac7e5abd8b:42f9823d3g0532dc99b47x159859bdk8
-keenproject=${keenproject:-<changeme>} #keen.io project id: e.g. 63ed34a4e87596182f030301
-keencollection=${keencollection:-<changeme>} #keen.io collection: e.g. heartbeatProduction
-keenkey=${keenkey:-<changeme>} #keen.io write API key: e.g. 26232f8eac452ece71a20b5d0658fe5925a2d80fba2370e53fb1dc8ed2d50c9117e4fc815e54e69bde345102db40801cbeb62a3f8179053863a3fe443f302519fb58440f0c41183bbbeac983b6b7fc2aacdcf12c51db6451568d87a0f2acc5ffdf61529ad8eba7e62e7f023d2c258d64
+twilioid=${twilioid:-<changeme>} #twilio id
+twilioTo=${twilioTo:-<changeme>} #twilio to sms phone number
+twilioFrom=${twillioFrom:-<changeme>} #twilio from sms phone numbe
+twiliotoken=${twiliotoken:-<changeme>} #twilio authorization token
+keenproject=${keenproject:-<changeme>} #keen.io project id
+keencollection=${keencollection:-<changeme>} #keen.io collection
+keenkey=${keenkey:-<changeme>} #keen.io write API key
 ```
 2. Add the following lines throughout the shell script where you want to send information to keen.io and twilio.com
 ```
